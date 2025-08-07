@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: lista-compras-api
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn backend.wsgi
+    plan: free
+    region: oregon
+    runtime: python
+    repo: https://github.com/Rodrigo-Tunala/Lista_de_Compras
+    branch: main
+    autoDeploy: true
