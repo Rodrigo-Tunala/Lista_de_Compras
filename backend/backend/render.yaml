@@ -4,7 +4,7 @@ services:
     env: python
     plan: free
     buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn backend.wsgi
+    startCommand: gunicorn Lista_de_Compras.backend.wsgi
     autoDeploy: true
     branch: main
     runtime: python
