@@ -1,2 +1,0 @@
-web: gunicorn Lista_de_Compras.backend.wsgi
-
